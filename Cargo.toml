@@ -1,0 +1,14 @@
+[package]
+name = "static-ldd"
+version = "0.1.0"
+authors = ["Jamey Sharp <jamey@minilop.net>"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/jameysharp/static-ldd"
+homepage = "https://github.com/jameysharp/static-ldd"
+readme = "README.md"
+description = """A library and command-line tool for inferring
+dependencies between static libraries."""
+
+[dependencies]
+filebuffer = "0.2.0"
+goblin = "0.0.10"
